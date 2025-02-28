@@ -25,15 +25,17 @@ A simple Pomodoro timer built with Electron. This timer follows a 30-minute cycl
    npm start
    ```
 
+## Build to .exe
+   ```sh
+   npm build
+   ```
+
 ## Keyboard Shortcuts
 - **Close the application**: `Ctrl + Shift + Alt + C`
 
 ## Built With
 - [Electron](https://www.electronjs.org/) - Cross-platform desktop app framework
 
-## License
-This project is licensed under the MIT License.
-
 ## Author
-[Your Name](https://github.com/yourusername)
+[Samuel Krohn](https://github.com/SamgeeGamwise)
 
