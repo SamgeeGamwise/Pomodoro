@@ -39,7 +39,7 @@ app.whenReady().then(() => {
     app.quit();
   });
 
-  mainWindow.loadFile("index.html");
+  mainWindow.loadFile("src/index.html");
  // Allow mouse to click through the window
   mainWindow.setIgnoreMouseEvents(true);
   mainWindow.on("closed", () => {
@@ -73,7 +73,7 @@ app.on("activate", () => {
         },
       });
 
-      mainWindow.loadFile("index.html");
+      mainWindow.loadFile("src/index.html");
     });
   }
 });
